@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="banner">
+    <div class="main__container">
+      <div class="container">
+        <div class="left__container">
+            <h3>HOME</h3>
+
+            <p class="number" id="home__number">0</p>
+
+            <div class="home__btns sub-container">
+              <button class="home__span-1 btn" onclick="homeOne()">+1</button>
+              <button class="home__span-2 btn" onclick="homeTwo()">+2</button>
+              <button class="home__span-3 btn" onclick="homeThree()">+3</button>
+            </div>
+        </div>
+        <div class="right__container">
+          
+            <h3>GUEST</h3>
+
+            <p class="number" id="guest__number">0</p>
+
+            <div class="guest__btns sub-container">
+              <button class="guest__btn-4 btn" onclick="guestOne()">+1</button>
+              <button class="guest__btn-5 btn" onclick="guestTwo()">+2</button>
+              <button class="guest__bnt-6 btn" onclick="guestThree()">+3</button>
+            </div>   
+        </div>
+      </div>
+      <div class="btn__clear">
+        <button id="btn__clear-board" onclick="clearBoard()">Reset</button>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

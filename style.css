@@ -1,0 +1,117 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+body{
+background-color: #1B244A;
+max-width: 100%;
+
+}
+
+.main__container {
+  background: #1B244A;
+  max-width: 35rem;
+  margin: 15vh auto 0 auto;
+  padding: 3rem 4rem;
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+  box-shadow: 2px 0 8px white;
+  
+
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+  }
+
+  
+}
+
+.container {
+  margin-bottom: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 2rem;
+
+   @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  color: #EEEEEE;
+  margin-bottom: 1rem;
+
+ 
+}
+
+.left__container{
+  margin-bottom: 0;
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.number{
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 126.67px;
+  text-align: center;
+  background: #080001;
+  color: #F94F6D;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  @media only screen and (max-width: 600px) {
+    margin-bottom:.5rem;
+  }
+}
+
+
+
+.btn {
+  font-family: Cursed Timer ULiL;
+  font-size: 2rem;
+  padding: .2rem .3rem;
+  border: 2px solid #9AABD8;
+  border-radius: 6px;
+  color:#9AABD8 ;
+  background: #1B244A;
+
+  @media only screen and (max-width: 600px) {
+   
+  }
+
+}
+
+.btn:not(:last-child) {
+  margin-right: 3px;
+}
+
+.btn__clear {
+  width: 100%;
+ text-align: center;
+ font-size:rem;
+ margin-bottom: 2rem;
+ 
+
+
+}
+
+#btn__clear-board {
+  border: 2px solid #F94F6D;
+  border-radius: 5rem;
+  padding: 2px 5rem; 
+  font-size: 2rem;
+  background: #F94F6D;
+  color: #1B244A;
+}
